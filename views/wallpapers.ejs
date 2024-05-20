@@ -35,8 +35,8 @@
         <h2 class="title-font sm:text-2xl text-xl mb-4 font-medium text-gray-900"><%= images.length %> Search results for <%= query %></h2>
       <div class="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">
         <% for (const image of images) { %>
-          <a href="<%= image %>">
-            <img src="<%= image %>" target="_blank" alt="Wallpaper Image" class="mb-5">
+          <a href="<%= image %>"  target="_blank">
+            <img src="<%= image %>" alt="Wallpaper Image" class="mb-5">
           </a>
           
         <% } %>

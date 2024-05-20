@@ -17,6 +17,7 @@ app.get("/", (req, res) => {
 
 app.get('/wallpapers', async (req, res) => {
     const query = req.query.query; // Get the query parameter from the search form
+
     let images = [];
 
     try {
